@@ -1,0 +1,172 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 814.294 s <<< FAILURE! - in CucumberTestSuite
+Add Admin.Add admin using correct value  Time elapsed: 11.345 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add user with registered value  Time elapsed: 10.688 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add admin using incorrect email  Time elapsed: 11.086 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add admin using incorect phone number  Time elapsed: 10.345 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add admin with no name  Time elapsed: 10.866 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add admin with no email  Time elapsed: 11.11 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Add Admin.Add admin with no phone number  Time elapsed: 11.196 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I input password admin' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I input password admin")
+public void i_input_password_admin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Delete Paket Data Simpati.Delete Paket Data  Time elapsed: 20.379 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb9246c2622c0da85028fc9c4df9fd9c, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61262/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb9246c2622c0da85028fc9c4df9fd9c
+
+Delete Paket Data.Delete Paket Data  Time elapsed: 17.976 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bd7aba784ab25eddd9a1766f35eada3, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61597/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bd7aba784ab25eddd9a1766f35eada3
+
+Edit Paket Data Telkomsel.Edit paket data telkomsel with correct value  Time elapsed: 15.691 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff4e4a0d52fcd2c2ca9c066488e799e5, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61632/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff4e4a0d52fcd2c2ca9c066488e799e5
+
+Edit Paket Data Telkomsel.Edit paket data telkomsel with no nama produk  Time elapsed: 17.134 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62723c8c60967a87657d0290b265f5e1, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62723c8c60967a87657d0290b265f5e1
+
+Edit Paket Data Telkomsel.Edit paket data telkomsel with no stock  Time elapsed: 19.483 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [feffabfed0d4af1e1a82d9a741fe2c8f, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61699/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: feffabfed0d4af1e1a82d9a741fe2c8f
+
+Edit Paket Data Telkomsel.Edit paket data telkomsel with no harga  Time elapsed: 15.48 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-VNCT3MF', ip: '172.20.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6672465fde791f87949f7a957ae35090, findElement {using=xpath, value=/html/body/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61732/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6672465fde791f87949f7a957ae35090
+

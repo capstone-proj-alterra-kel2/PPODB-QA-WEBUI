@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add Paket Data Simpati","Add paket data simpati with correct value","SUCCESS","2022-12-22T18:51:50.7+07:00[Asia/Bangkok]","0.0","13.95"
+"Add Paket Data Simpati","Add paket data simpati with no nama produk","SUCCESS","2022-12-22T18:52:05.723+07:00[Asia/Bangkok]","0.0","12.6"
+"Add Paket Data Simpati","Add paket data simpati with no stock produk","SUCCESS","2022-12-22T18:52:21.462+07:00[Asia/Bangkok]","0.0","11.47"
+"Add Paket Data Simpati","Add paket data simpati with no harga produk","SUCCESS","2022-12-22T18:52:34.079+07:00[Asia/Bangkok]","0.0","13.31"
