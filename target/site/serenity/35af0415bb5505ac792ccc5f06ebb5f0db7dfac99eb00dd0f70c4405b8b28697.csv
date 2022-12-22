@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add Admin","Add admin using incorrect email","PENDING","2022-12-22T18:46:00.896+07:00[Asia/Bangkok]","0.0","10.04"
+"Add Admin","Add admin with no email","PENDING","2022-12-22T18:46:33.204+07:00[Asia/Bangkok]","0.0","10.02"
+"Add Admin","Add admin with no phone number","PENDING","2022-12-22T18:46:44.312+07:00[Asia/Bangkok]","0.0","10.14"
+"Add Admin","Add admin with no password","SUCCESS","2022-12-22T18:46:55.538+07:00[Asia/Bangkok]","0.0","11.94"
+"Edit Admin","Edit admin with correct value","SUCCESS","2022-12-22T18:47:20.83+07:00[Asia/Bangkok]","0.0","11.89"
+"Edit Admin","Edit admin with no name","SUCCESS","2022-12-22T18:47:33.561+07:00[Asia/Bangkok]","0.0","11.4"
+"Edit Admin","Edit admin with wrong email","SUCCESS","2022-12-22T18:47:46.055+07:00[Asia/Bangkok]","0.0","13.72"

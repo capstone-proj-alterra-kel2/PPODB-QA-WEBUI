@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Edit Admin","Edit admin with correct value","SUCCESS","2022-12-22T18:47:20.83+07:00[Asia/Bangkok]","0.0","11.89"
+"Edit Admin","Edit admin with no name","SUCCESS","2022-12-22T18:47:33.561+07:00[Asia/Bangkok]","0.0","11.4"
+"Edit Admin","Edit admin with wrong email","SUCCESS","2022-12-22T18:47:46.055+07:00[Asia/Bangkok]","0.0","13.72"

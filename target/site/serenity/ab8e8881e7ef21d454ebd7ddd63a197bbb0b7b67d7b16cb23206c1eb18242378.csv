@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete Paket Data","Delete Paket Data","FAILURE","2022-12-22T18:55:08.3+07:00[Asia/Bangkok]","0.0","14.68"
+"Edit Paket Data Telkomsel","Edit paket data telkomsel with correct value","FAILURE","2022-12-22T18:55:26.268+07:00[Asia/Bangkok]","0.0","14.6"
+"Edit Paket Data Telkomsel","Edit paket data telkomsel with no nama produk","FAILURE","2022-12-22T18:55:41.964+07:00[Asia/Bangkok]","0.0","16.05"
+"Edit Paket Data Telkomsel","Edit paket data telkomsel with no stock","FAILURE","2022-12-22T18:55:59.113+07:00[Asia/Bangkok]","0.0","16.45"
+"Edit Paket Data Telkomsel","Edit paket data telkomsel with no harga","FAILURE","2022-12-22T18:56:18.586+07:00[Asia/Bangkok]","0.0","14.38"

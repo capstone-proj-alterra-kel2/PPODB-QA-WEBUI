@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.11.3/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.11.3/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.11.3/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">MYCUAN WEB UI</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="511c98f39adc44177e2808fd0a38eb4666a5faf9b1b6b4c7e58d7215c6c0e0e5.html">Add Paket Data Telkomsel</a></span>
+                > <span class="truncate-60"><a
+                    href="754933a9d54c323a4be63d9e379f5f6fa9f0547a3be91b3118a41d1be6453a7d.html">Add paket data telkomsel with correct value </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="dafb266f68444cb7f2451c923d70c1428ac45470c361842b818e6daa9bcd4fa8.html"><i class="bi bi-chat-text"></i> Themes</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="bi bi-chat-text"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 22-12-2022 18:54</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Add Paket Data Telkomsel </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Add paket data telkomsel with correct value
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c5956ef089c9c051fb1c1d3da362bc3860ad06ae9325289783a2a6e6203fc275.png" title=" Given I have login on MYCUAN" width="1034"/>
+                <img src="c5956ef089c9c051fb1c1d3da362bc3860ad06ae9325289783a2a6e6203fc275.png" title=" Verify login" width="1034"/>
+                <img src="c5956ef089c9c051fb1c1d3da362bc3860ad06ae9325289783a2a6e6203fc275.png" title=" Verify login (completed)" width="1034"/>
+                <img src="c5956ef089c9c051fb1c1d3da362bc3860ad06ae9325289783a2a6e6203fc275.png" title=" Input email: admin@gmail.com" width="1034"/>
+                <img src="be45cee3165f3298596322c59b2b8bbb69a784e5e150381d85f9fbe616d35bb8.png" title=" Input email: admin@gmail.com (completed)" width="1034"/>
+                <img src="be45cee3165f3298596322c59b2b8bbb69a784e5e150381d85f9fbe616d35bb8.png" title=" Input password: admin" width="1034"/>
+                <img src="dda0434d4da4088b14bba41899bd21b7ef022ae780f3cce6320d7d6d388de418.png" title=" Input password: admin (completed)" width="1034"/>
+                <img src="dda0434d4da4088b14bba41899bd21b7ef022ae780f3cce6320d7d6d388de418.png" title=" Click login" width="1034"/>
+                <img src="696e1d11c578a2a0bd2fcd09b109044d047106c04c87962104b847a0cc19d7e0.png" title=" Click login (completed)" width="1034"/>
+                <img src="696e1d11c578a2a0bd2fcd09b109044d047106c04c87962104b847a0cc19d7e0.png" title=" Verify on dashboard" width="1034"/>
+                <img src="e0d162a5853ff930d2c54f39995b12639daf79a88d230413f79c19b786a1bcf0.png" title=" Verify on dashboard (completed)" width="1034"/>
+                <img src="e0d162a5853ff930d2c54f39995b12639daf79a88d230413f79c19b786a1bcf0.png" title=" Given I have login on MYCUAN (completed)" width="1034"/>
+                <img src="3f1c8eab5c4a29d799961be6a3fe896396ba821bf2b9b0bd4b097575e92b822c.png" title=" When I click Produk Kami" width="1034"/>
+                <img src="3f1c8eab5c4a29d799961be6a3fe896396ba821bf2b9b0bd4b097575e92b822c.png" title=" Click produk" width="1034"/>
+                <img src="3f1c8eab5c4a29d799961be6a3fe896396ba821bf2b9b0bd4b097575e92b822c.png" title=" When I click Produk Kami (completed)" width="1034"/>
+                <img src="1d663421f07333186a023a98488ed81d517010f7c58ee48572325dfe130eb080.png" title=" And I click paket data" width="1034"/>
+                <img src="1d663421f07333186a023a98488ed81d517010f7c58ee48572325dfe130eb080.png" title=" Click paket data" width="1034"/>
+                <img src="1d663421f07333186a023a98488ed81d517010f7c58ee48572325dfe130eb080.png" title=" And I click paket data (completed)" width="1034"/>
+                <img src="6f0381c780298b5cd444c4f8fd6bf7483fb96ee0588ac3716d639360e9448838.png" title=" And I click telkomsel" width="1034"/>
+                <img src="6f0381c780298b5cd444c4f8fd6bf7483fb96ee0588ac3716d639360e9448838.png" title=" Click telkomsel" width="1034"/>
+                <img src="6f0381c780298b5cd444c4f8fd6bf7483fb96ee0588ac3716d639360e9448838.png" title=" And I click telkomsel (completed)" width="1034"/>
+                <img src="d92e72120ef4dd1f40f859d39f06998d978bdafff35042f46b34185ce7eb887e.png" title=" Then I click tambah produk" width="1034"/>
+                <img src="d92e72120ef4dd1f40f859d39f06998d978bdafff35042f46b34185ce7eb887e.png" title=" Click tambah produk" width="1034"/>
+                <img src="d92e72120ef4dd1f40f859d39f06998d978bdafff35042f46b34185ce7eb887e.png" title=" Then I click tambah produk (completed)" width="1034"/>
+                <img src="829ffe0d867f22ed576f22258616fe85a79b0a9d553cc42df59a9796c62fda6a.png" title=" And I input nama produk" width="1034"/>
+                <img src="829ffe0d867f22ed576f22258616fe85a79b0a9d553cc42df59a9796c62fda6a.png" title=" Input name: Paket Keluarga 2" width="1034"/>
+                <img src="829ffe0d867f22ed576f22258616fe85a79b0a9d553cc42df59a9796c62fda6a.png" title=" And I input nama produk (completed)" width="1034"/>
+                <img src="c9601f0f925dea14eb92f77554b8600a188b1e28d5b378e77034aa96a52c5d1f.png" title=" And I input stock produk" width="1034"/>
+                <img src="c9601f0f925dea14eb92f77554b8600a188b1e28d5b378e77034aa96a52c5d1f.png" title=" Input stock: 50" width="1034"/>
+                <img src="c9601f0f925dea14eb92f77554b8600a188b1e28d5b378e77034aa96a52c5d1f.png" title=" And I input stock produk (completed)" width="1034"/>
+                <img src="afd2700afd67dc58f197f713d3bac75c613aba2b582d93a5b7fa5e010798ec19.png" title=" And I input provider telkomsel" width="1034"/>
+                <img src="afd2700afd67dc58f197f713d3bac75c613aba2b582d93a5b7fa5e010798ec19.png" title=" Input provider" width="1034"/>
+                <img src="afd2700afd67dc58f197f713d3bac75c613aba2b582d93a5b7fa5e010798ec19.png" title=" Pilih telkomsel" width="1034"/>
+                <img src="afd2700afd67dc58f197f713d3bac75c613aba2b582d93a5b7fa5e010798ec19.png" title=" Pilih telkomsel (completed)" width="1034"/>
+                <img src="afd2700afd67dc58f197f713d3bac75c613aba2b582d93a5b7fa5e010798ec19.png" title=" And I input provider telkomsel (completed)" width="1034"/>
+                <img src="623a9003d12be6163255f61ea2a5de8ae128561789fdc354356120c9f34288e3.png" title=" And I input harga produk" width="1034"/>
+                <img src="623a9003d12be6163255f61ea2a5de8ae128561789fdc354356120c9f34288e3.png" title=" Input harga: 15000" width="1034"/>
+                <img src="623a9003d12be6163255f61ea2a5de8ae128561789fdc354356120c9f34288e3.png" title=" And I input harga produk (completed)" width="1034"/>
+                <img src="64605694d2896d0bc31ded40747c276875aaf9c23c452f417747766201af3521.png" title=" Then I choose status harga" width="1034"/>
+                <img src="64605694d2896d0bc31ded40747c276875aaf9c23c452f417747766201af3521.png" title=" Choose status" width="1034"/>
+                <img src="64605694d2896d0bc31ded40747c276875aaf9c23c452f417747766201af3521.png" title=" Then I choose status harga (completed)" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" And I click tambahkan" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" Click tambahkan" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" Click tambahkan" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" Click tambahkan (completed)" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" And I click tambahkan (completed)" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" Then I can view list paket data telkomsel" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" View list PD tsel" width="1034"/>
+                <img src="e65a6e84778ac919bc4e2018344d134c052e3065f62a1c214661d592d0fb014e.png" title=" Then I can view list paket data telkomsel (completed): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.2.1</span>
+</div>
+</body>
+</html>

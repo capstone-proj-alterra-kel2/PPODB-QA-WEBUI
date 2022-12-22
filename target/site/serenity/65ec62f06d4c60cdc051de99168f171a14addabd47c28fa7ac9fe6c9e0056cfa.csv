@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add Paket Data Telkomsel","Add paket data telkomsel with correct value","SUCCESS","2022-12-22T18:54:09.701+07:00[Asia/Bangkok]","0.0","14.5"
+"Add Paket Data Telkomsel","Add paket data telkomsel with no nama produk","SUCCESS","2022-12-22T18:54:26.923+07:00[Asia/Bangkok]","0.0","11.15"
+"Add Paket Data Telkomsel","Add paket data telkomsel with no stock produk","SUCCESS","2022-12-22T18:54:39.139+07:00[Asia/Bangkok]","0.0","12.51"
+"Add Paket Data Telkomsel","Add paket data telkomsel with no harga produk","SUCCESS","2022-12-22T18:54:52.74+07:00[Asia/Bangkok]","0.0","12.68"

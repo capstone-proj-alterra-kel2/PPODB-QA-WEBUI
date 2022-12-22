@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add Admin","Add admin using correct value","PENDING","2022-12-22T18:45:39.36+07:00[Asia/Bangkok]","0.0","9.77"
+"Add Admin","Add user with registered value","PENDING","2022-12-22T18:45:50.209+07:00[Asia/Bangkok]","0.0","9.88"
+"Add Admin","Add admin using incorect phone number","PENDING","2022-12-22T18:46:12.009+07:00[Asia/Bangkok]","0.0","9.51"
+"Add Admin","Add admin with no name","PENDING","2022-12-22T18:46:22.463+07:00[Asia/Bangkok]","0.0","9.68"
+"Delete Admin","Delete registered admin","SUCCESS","2022-12-22T18:47:10.741+07:00[Asia/Bangkok]","0.0","8.96"
+"Edit Admin","Edit admin with no email","SUCCESS","2022-12-22T18:48:03.592+07:00[Asia/Bangkok]","0.0","9.64"
+"List Admin","View list all admins","SUCCESS","2022-12-22T18:48:14.429+07:00[Asia/Bangkok]","0.0","9.01"
